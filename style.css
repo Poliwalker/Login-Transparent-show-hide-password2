@@ -18,18 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
-}
-
-.login-container::after{
-    content: "";
-    background: rgba(255,255,255,0.234);
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-
 }
 
 .content{
@@ -44,6 +33,7 @@ body{
     background: rgba(212, 29, 29, 0.133);
     backdrop-filter: blur(3px);
     box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+    z-index: 1000;
 }
 
 header > h1{
@@ -65,7 +55,8 @@ header > h1{
 .field span{
     color: rgb(0, 0, 0);
     width: 40px;
-    line-height: 45px; 
+    line-height: 40px; 
+    text-align: center;
 }
 
 .field input{
@@ -121,7 +112,7 @@ header > h1{
 }
 
 .btn input[type="submit"]:hover {
-    background: #4a0de4f5;
+    background: #270878f5;
 }
 
 .btn{
